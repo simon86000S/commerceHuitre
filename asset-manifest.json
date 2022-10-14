@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/commerceHuitre/static/css/main.7c32d97d.css",
+    "main.css": "/commerceHuitre/static/css/main.310db249.css",
     "main.js": "/commerceHuitre/static/js/main.38760c6a.js",
     "static/js/787.d1b79dfd.chunk.js": "/commerceHuitre/static/js/787.d1b79dfd.chunk.js",
     "static/media/huitreeats.jpeg": "/commerceHuitre/static/media/huitreeats.5fa20705ab973562e0fc.jpeg",
@@ -14,12 +14,12 @@
     "static/media/huitrecreusebaie.jpg": "/commerceHuitre/static/media/huitrecreusebaie.c359d6568c81681d8b34.jpg",
     "static/media/photo4.jpg": "/commerceHuitre/static/media/photo4.517ab970e70eb6b82e37.jpg",
     "index.html": "/commerceHuitre/index.html",
-    "main.7c32d97d.css.map": "/commerceHuitre/static/css/main.7c32d97d.css.map",
+    "main.310db249.css.map": "/commerceHuitre/static/css/main.310db249.css.map",
     "main.38760c6a.js.map": "/commerceHuitre/static/js/main.38760c6a.js.map",
     "787.d1b79dfd.chunk.js.map": "/commerceHuitre/static/js/787.d1b79dfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c32d97d.css",
+    "static/css/main.310db249.css",
     "static/js/main.38760c6a.js"
   ]
 }
