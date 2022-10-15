@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/commerceHuitre/static/css/main.de87b63a.css",
-    "main.js": "/commerceHuitre/static/js/main.455adfb9.js",
+    "main.css": "/commerceHuitre/static/css/main.0fe1ecb1.css",
+    "main.js": "/commerceHuitre/static/js/main.164f763e.js",
     "static/js/787.d1b79dfd.chunk.js": "/commerceHuitre/static/js/787.d1b79dfd.chunk.js",
     "static/media/huitreeats.jpeg": "/commerceHuitre/static/media/huitreeats.5fa20705ab973562e0fc.jpeg",
     "static/media/photo7.jpeg": "/commerceHuitre/static/media/photo7.45303e0b60d6576a096c.jpeg",
     "static/media/huitre2.jpg": "/commerceHuitre/static/media/huitre2.616cdb67f04af4fed85a.jpg",
     "static/media/bourriche.jpg": "/commerceHuitre/static/media/bourriche.dcc057983bb51332d858.jpg",
-    "static/media/huitrecreuse.jpg": "/commerceHuitre/static/media/huitrecreuse.a377a50e3cb30266faef.jpg",
     "static/media/photo6.jpeg": "/commerceHuitre/static/media/photo6.18e531d5f91bfb28eb51.jpeg",
     "static/media/huitresvg.jpg": "/commerceHuitre/static/media/huitresvg.93e9a96044e5697697f6.jpg",
     "static/media/photo5.jpg": "/commerceHuitre/static/media/photo5.08cfc6d1f066547632e5.jpg",
     "static/media/huitrecreusebaie.jpg": "/commerceHuitre/static/media/huitrecreusebaie.c359d6568c81681d8b34.jpg",
     "static/media/photo4.jpg": "/commerceHuitre/static/media/photo4.517ab970e70eb6b82e37.jpg",
     "index.html": "/commerceHuitre/index.html",
-    "main.de87b63a.css.map": "/commerceHuitre/static/css/main.de87b63a.css.map",
-    "main.455adfb9.js.map": "/commerceHuitre/static/js/main.455adfb9.js.map",
+    "main.0fe1ecb1.css.map": "/commerceHuitre/static/css/main.0fe1ecb1.css.map",
+    "main.164f763e.js.map": "/commerceHuitre/static/js/main.164f763e.js.map",
     "787.d1b79dfd.chunk.js.map": "/commerceHuitre/static/js/787.d1b79dfd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de87b63a.css",
-    "static/js/main.455adfb9.js"
+    "static/css/main.0fe1ecb1.css",
+    "static/js/main.164f763e.js"
   ]
 }
