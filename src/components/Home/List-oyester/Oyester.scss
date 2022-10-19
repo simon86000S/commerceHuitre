@@ -1,0 +1,38 @@
+.oyesters{
+.wrapper{
+  display: flex;
+  p{
+    padding-left: 15px;
+    line-height: 1.8;
+  }
+}
+  .wrapper-list{
+  
+    img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height:100px;
+      padding:10px;
+      border-radius: 50px;
+      position: relative;
+      cursor:pointer;
+      &:hover{
+        transform: scale(1.2);
+        transition: transform 500ms ease-out;
+      }
+      &::before{
+        position: absolute;
+        content: "";
+        background-color: black;
+        height: 2px;
+        width: 200px;
+        bottom: 0;
+        
+        
+      }
+     
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.Price{
+    height: 100vh;
+    
+    .container {
+        display: grid; 
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; 
+        grid-template-rows: 0.5fr; 
+        gap: 8px 8px; 
+        grid-template-areas: 
+          ". . . . ."; 
+          .background{
+            background-image: url('https://t3.ftcdn.net/jpg/03/64/39/20/360_F_364392037_q4DhrBYsPDX8omBIBfygiJsDX8NbhZUN.jpg');
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 5px;
+            button{
+              margin-left: 15px;
+            }
+            .Price{
+display: flex;
+align-items: center;
+i{
+    margin-left: 10px;
+    background-color: aqua;
+    width: 80px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);}
+            }
+          }
+          img{
+            padding: 12px;
+            width: 150px;
+            height: 150px;
+            border-radius: 15%;
+           
+            
+          }
+      }
+}
+@media screen and (max-width: 1024px) {
+    .Price{
+      display: flex;
+        .container {
+            display: grid; 
+            grid-template-columns: 0.5fr 0.5fr; 
+            grid-template-rows: 0.5fr 0.5fr; 
+            gap: 8px 8px; 
+            grid-template-areas: 
+              ". ."
+              ". ."; 
+              margin-top: 100px;
+          }
+       
+    }
+    
+  }

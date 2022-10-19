@@ -1,0 +1,22 @@
+.Article{
+  height: 100vh;
+  background-size: cover;
+  background-position: 300%;
+
+  h1{
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    background-position-x: -63px;
+    
+    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+    &:before{
+      content:"";
+      position: absolute;
+      bottom:-15px;
+      background-color: rgb(14, 12, 12);
+      height: 2px;
+      width: 170px
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.Landing {
+  .container {
+    display: flex;
+    justify-content: space-between;
+
+    .list {
+      flex: 1;
+      
+      height: 100vh;
+      
+      .title-list{
+        text-align: center;
+        &:before{
+          content:"";
+          position: absolute;
+          bottom:-15px;
+          background-color: grey;
+          height: 2px;
+          width: 170px
+        }
+      }
+    }
+    .carrousel {
+      flex: 2;
+      width: 75%;
+
+      p {
+        font-size: 20px;
+        font-family: "Roboto", sans-serif;
+        width: 50%;
+        background-size: cover;
+        background-image: url("https://images.pexels.com/photos/2127969/pexels-photo-2127969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      }
+      img {
+        margin-top: 25px;
+        border-radius: 15px;
+        height: 30rem;
+        width: 50rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    .title-list{
+font-size: 20px;
+    }
+    .carrousel{
+     width: 100% !important;
+    }
+  }
+ 
+}

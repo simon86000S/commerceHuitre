@@ -1,0 +1,31 @@
+.wrapper-list-Row {
+  display: flex;
+  justify-content: space-around;
+  p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  img {
+    padding: 12px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 500ms ease-in;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper-list-Row{
+    img{
+      width: 65px;
+      height: 65px;
+      border-radius: 15%;
+    }
+  }
+ 
+}

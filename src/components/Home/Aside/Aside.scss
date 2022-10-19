@@ -1,0 +1,123 @@
+.container-Aside {
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/pink-smudge-watercolor-background-design_53876-100654.jpg?w=1060&t=st=1665823557~exp=1665824157~hmac=c4970140ba9248353e94b72ab20b6b4cd4a825facc840e8d222cb745ff2a9ae4");
+
+  .title-aside{
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+}
+  .card{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    .card1{
+        flex: 1;
+      
+        height: 50%;
+      
+        h1{
+            position: absolute;
+            bottom: 200px;
+            font-size: 55px;
+            right: 0;
+            transform: translate3d(80px,0,0) rotate(90deg);
+            text-transform: uppercase;
+            z-index: 2;
+            color:white;
+        }
+        .background1{
+            position: relative;
+            
+            top:0;
+            left: 155px;
+            width: 400px;
+            height: 400px;
+            background-color: rgba(190, 123, 34, 0.827);
+            img{
+                position: absolute;
+                top:45px;
+                right:40px;
+                width: 400px;
+                height: 400px;
+            }
+    
+        }
+      
+    }
+    .card2{
+        flex:1;
+     
+       
+        h1{
+            position: absolute;
+            bottom: 200px;
+            font-size: 55px;
+            right: 0;
+            transform: translate3d(110px,0,0) rotate(90deg);
+            text-transform: uppercase;
+            z-index: 2;
+            color:white;
+        }
+        .background{
+            position: relative;
+            
+            top:0px;
+            left: 155px;
+            width: 400px;
+            height: 400px;
+            background-color: rgba(190, 123, 34, 0.827);
+            h2{
+                font-size: 15px;}
+            img{
+                position: absolute;
+                top:45px;
+                right:40px;
+                width: 400px;
+                height: 400px;
+            }
+    
+        }
+        
+      }
+    }
+    }
+
+    @media screen and (max-width: 1024px) {
+        .container-Aside{
+
+        .title-aside{
+            text-align: center;
+            background-image: url("https://cdn-icons-png.flaticon.com/512/197/197560.png");
+        }
+  .card{
+    display: flex;
+    flex-direction: column;
+    
+     .card1{
+        .container1{
+        .background1{
+            left:0;
+            width: 350px;
+            img{
+                top:10px
+            }
+        }
+     } 
+  }
+  
+  .card2{
+    
+    .background{
+        left:0;
+        width: 350px;
+        img{
+            top:10px
+        }
+    } } 
+}
+    }
+      
+    }
